@@ -1,0 +1,53 @@
+.container{
+    height: 50vh;
+    /* border: 1px solid red; */
+    width: 40vw;
+    background-color: #fff;
+    border-radius: 5px;
+    /* TO PLACE ANY DIV TO CENTER */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.up{
+    height: 25vh;
+    /* border: 1px solid red; */
+}
+
+.up img{
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.down {
+    height: 25vh;
+    /* border: 1px solid red; */
+}
+
+.down p{
+    height: 15vh;
+}
+
+
+.buttons{
+    justify-content: space-between;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.suprise{
+    /* margin-top: 50px; */
+}
+
+.big-container{
+    background-color: rgb(147, 138, 138);
+    /* border: 1px solid red; */
+    height: 100vh;
+
+}
